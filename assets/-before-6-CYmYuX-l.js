@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as c}from"./index-BLtBQJ_E.js";const l={};function o(s,a){return c(),r("span",null," For problems 6-11, each problem may have multiple answers. Credits will be given only if all the answers are selected correctly. ")}const t=e(l,[["render",o]]);export{t as default};
