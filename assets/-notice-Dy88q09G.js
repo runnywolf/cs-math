@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./index-CHE3jmAR.js";const c={},n={style:{"font-family":"DFKai-sb","font-weight":"bold"}};function s(a,r){return o(),t("span",n," ※ 注意：請用 2B 鉛筆作答於答案卡，並先詳閱答案卡上之「畫記說明」。 ")}const f=e(c,[["render",s]]);export{f as default};
