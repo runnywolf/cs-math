@@ -1,0 +1,10 @@
+import{_ as u,e as s,c as o,o as p,g as l,i as r,a as x,F as i}from"./index-DxRyEaSp.js";const f={};function m(b,n){const t=s("vl");return p(),o(i,null,[n[0]||(n[0]=l(" 遞迴關係式為 ")),r(t,{exp:"a_n - a_{n-1} - 6a_{n-2} = 0"}),n[1]||(n[1]=x("br",null,null,-1)),r(t,{exp:"\\Rightarrow"}),n[2]||(n[2]=l(" 特徵方程式為 ")),r(t,{exp:"\\lambda^2 - \\lambda - 6 = 0"}),n[3]||(n[3]=x("br",null,null,-1)),r(t,{exp:"\\Rightarrow"}),n[4]||(n[4]=l(" 特徵值 ")),r(t,{exp:"\\lambda = -2, 3"}),n[5]||(n[5]=x("br",null,null,-1)),r(t,{exp:"\\Rightarrow"}),n[6]||(n[6]=l(" 設一般式為 ")),r(t,{exp:"a_n = h_1(-2)^n + h_2 3^n"}),n[7]||(n[7]=x("br",null,null,-1)),n[8]||(n[8]=x("br",null,null,-1)),n[9]||(n[9]=l(" 求生成函數 ")),r(t,{exp:"G(x)"}),n[10]||(n[10]=l(" 的部分分式分解，注意 ")),r(t,{exp:"\\sum\\limits_{n=0}^{\\infty} (kx)^n = \\frac{1}{1-kx}"}),n[11]||(n[11]=l("： ")),r(t,{c:"",exp:`
+		\\begin{split}
+			G(x) &= \\sum_{n=0}^{\\infty} a_n x^n \\\\
+					 &= \\sum_{n=0}^{\\infty} [h_1(-2)^n + h_2 3^n] x^n \\\\
+					 &= h_1 \\sum_{n=0}^{\\infty} (-2)^n x^n + h_2 \\sum_{n=0}^{\\infty} 3^n x^n \\\\
+					 &= h_1 \\sum_{n=0}^{\\infty} (-2x)^n + h_2 \\sum_{n=0}^{\\infty} (3x)^n \\\\
+					 &= h_1 \\frac{1}{1-(-2x)} + h_2 \\frac{1}{1-3x} \\\\
+					 &= \\frac{h_1}{1+2x} + \\frac{h_2}{1-3x}
+		\\end{split}
+	`}),n[12]||(n[12]=l(" 觀察每個選項的特徵值 (分母) ")),r(t,{exp:"\\Rightarrow"}),n[13]||(n[13]=l(" (A) (B) (C) 可能正確")),n[14]||(n[14]=x("br",null,null,-1)),n[15]||(n[15]=x("br",null,null,-1)),n[16]||(n[16]=l(" 由於 ")),r(t,{c:"",exp:"G(0) = a_0 + a_1 0^1 + a_2 0^2 + \\cdots = a_0 = A"}),n[17]||(n[17]=l(" 將 ")),r(t,{exp:"x = 0"}),n[18]||(n[18]=l(" 代入到選項 (A) (B) (C)，求各選項的 ")),r(t,{exp:"G(0)"}),n[19]||(n[19]=l("：")),n[20]||(n[20]=x("br",null,null,-1)),n[21]||(n[21]=l(" (A) ")),r(t,{exp:"A"}),n[22]||(n[22]=l(" (B) ")),r(t,{exp:"A + \\frac{2}{5}B"}),n[23]||(n[23]=l(" (C) ")),r(t,{exp:"A - \\frac{2}{5}B"}),n[24]||(n[24]=x("br",null,null,-1)),r(t,{exp:"\\Rightarrow"}),n[25]||(n[25]=l(" (A) 正確")),n[26]||(n[26]=x("br",null,null,-1)),n[27]||(n[27]=x("br",null,null,-1)),n[28]||(n[28]=l(" Ans: (A) "))],64)}const A=u(f,[["render",m]]);export{A as default};
