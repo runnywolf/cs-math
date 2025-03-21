@@ -1,0 +1,1 @@
+const t="296",s="數學(A)",e="https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/114/114-296.pdf",n="國立臺灣大學圖書館 考古題",o=["-notice","1","2","3","4","5","6","7","8","9","10"],c={},i={id:t,subject:s,link:e,linkTip:n,section:o,problem:c};export{i as default,t as id,e as link,n as linkTip,c as problem,o as section,s as subject};
